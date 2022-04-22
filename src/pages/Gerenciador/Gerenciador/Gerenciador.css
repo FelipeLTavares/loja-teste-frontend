@@ -1,0 +1,40 @@
+.Gerenciador{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.GerenciadorCadastrar, .GerenciadorDelete{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.GerenciadorDelete{
+  border-top: 3px dashed gray;
+}
+
+.GerTitulo{
+  margin: 20px;
+}
+
+.GerLabel{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.GerInput{
+  width: 50%;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.GerBtn{
+  width: 50%;
+  height: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}

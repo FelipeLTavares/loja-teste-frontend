@@ -1,0 +1,54 @@
+.Login{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.LoginImg{
+  width: 70%;
+  height: 100vh;
+}
+
+.LoginForm{
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+.Loginformulario{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.LoginInput{
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  padding: 2px 5px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+.LoginBotao{
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(2, 179, 2);
+  padding: 2px 5px;
+  margin: 20px 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+.LoginBotao:hover{
+  background-color: rgb(1, 192, 1);
+}

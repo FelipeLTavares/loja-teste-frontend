@@ -1,0 +1,39 @@
+.Cartao{
+  border-radius: 10px;
+  width: 200px;
+  margin: 20px;
+  transition: opacity 0.3s;
+  transition: box-shadow 0.3s;  
+}
+
+.CartaoImg{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.Cartao:hover{
+  opacity: 85%;
+  box-shadow: 3px 3px 5px gray
+}
+
+.CartaoInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#CartaoNome{
+  font-size: 16px;
+  text-align: center;
+  margin: 5px;
+}
+
+#CartaoValor{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}

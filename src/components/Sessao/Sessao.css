@@ -1,0 +1,22 @@
+.Sessao{
+  width: 95%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SessaoTitulo{
+  margin-left: 20px;
+}
+
+.SessaoLinha{
+  width: 95%;
+  margin-left: 20px;
+}
+
+.SessaoFotos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
